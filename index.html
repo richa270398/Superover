@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Superover</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <div class="row">
-            <div class="columns">
-               <img src="https://i.pinimg.com/originals/28/09/a8/2809a841bb08827603ccac5c6aee8b33.png" height="150px" width="150px"/>
-               <p>team1</p>
-               <div class="runs">
+            <div class="col">
+               <img src="https://i.pinimg.com/originals/28/09/a8/2809a841bb08827603ccac5c6aee8b33.png" class="pic" height="150px" width="150px"/>
+               <p class="name"><b>Mumbai Indians</b></p>
+               <div class="row runs">
                    <div>-</div>
                    <div>-</div>
                    <div>-</div>
@@ -21,12 +22,13 @@
                    <div>-</div>
                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="columns">
-                <img src="https://i.pinimg.com/originals/7a/c7/bb/7ac7bb3ec273ab26c265fe4bdd126543.png" height="150px" width="150px"/>
-                <p>team1</p>
-                <div class="runs">
+            <div class="score"> 
+            score : 0-0
+            </div>
+            <div class="col">
+                <img src="https://i.pinimg.com/originals/7a/c7/bb/7ac7bb3ec273ab26c265fe4bdd126543.png" class="pic" height="150px" width="150px"/>
+                <p class="name"><b>Chennai super kings</b></p>
+                <div class="row runs">
                     <div>-</div>
                     <div>-</div>
                     <div>-</div>
@@ -36,7 +38,9 @@
                     <div>-</div>
                 </div>
              </div>
-
+        </div>
+        <div class="row">
+            <button id="strikebutton">Submit</button>
         </div>
     </div>
     
